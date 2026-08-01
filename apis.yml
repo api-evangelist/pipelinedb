@@ -1,7 +1,27 @@
 aid: pipelinedb
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pipelinedb.png
 name: Pipelinedb
-description: Pipelinedb is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  PipelineDB was a high-performance PostgreSQL extension for continuous,
+  incremental aggregation of time-series data using continuous SQL views,
+  avoiding the need to store raw event data. It also offered Stride, a hosted
+  streaming-analytics API with first-party Python, JavaScript, and Go client
+  SDKs, plus extensions for Apache Kafka and Amazon Kinesis ingestion. The
+  company joined Confluent in 2019; the open-source extension reached a final
+  1.0.0 release (Apache-2.0) and is now archived, while the pipelinedb.com
+  website and the hosted Stride service have been retired. Added to the API
+  Evangelist network as a portfolio company of DCVC.
 url: https://raw.githubusercontent.com/api-evangelist/pipelinedb/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,44 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: end-of-life
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Database
+- PostgreSQL
+- Streaming
+- Time Series
+- Analytics
+- SQL
+- Open Source
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/pipelinedb
+- type: SourceCode
+  url: https://github.com/pipelinedb/pipelinedb
+- type: License
+  url: https://github.com/pipelinedb/pipelinedb
+- type: Packages
+  url: packages/pipelinedb-packages.yml
+- type: SDKs
+  url: packages/pipelinedb-packages.yml
+- type: Lifecycle
+  url: lifecycle/pipelinedb-lifecycle.yml
+- type: Deprecation
+  url: lifecycle/pipelinedb-lifecycle.yml
+- type: LLMsTxt
+  url: llms/pipelinedb-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

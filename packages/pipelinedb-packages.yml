@@ -1,0 +1,40 @@
+generated: '2026-07-20'
+method: derived
+source: https://github.com/pipelinedb (organization repository listing)
+notes: >-
+  Derived from first-party source repositories in the github.com/pipelinedb
+  organization. PipelineDB's hosted streaming-analytics product, "Stride",
+  shipped official Python, JavaScript, and Go client SDKs. These were verified
+  as real repositories via the GitHub org listing but are NOT published under
+  the obvious names on public registries: PyPI "pystride" is Atlassian Stride
+  (unrelated) and npm "stride" is an unrelated flow-control library, so no
+  registry coordinates are asserted here. The PipelineDB extension itself is
+  distributed as a PostgreSQL C extension / Docker image, not a language package.
+packages:
+- name: pystride
+  language: python
+  official: true
+  registry: none-verified
+  repository: https://github.com/pipelinedb/pystride
+  description: First-party Python client for the Stride streaming-analytics API.
+- name: stride.js
+  language: javascript
+  official: true
+  registry: none-verified
+  repository: https://github.com/pipelinedb/stride.js
+  description: First-party JavaScript client for the Stride streaming-analytics API.
+- name: gostride
+  language: go
+  official: true
+  registry: none-verified
+  repository: https://github.com/pipelinedb/gostride
+  description: First-party Go client for the Stride streaming-analytics API.
+- name: pipelinedb
+  language: c
+  official: true
+  registry: source
+  repository: https://github.com/pipelinedb/pipelinedb
+  description: >-
+    The PipelineDB PostgreSQL extension (Apache-2.0), distributed as source and
+    Docker images (github.com/pipelinedb/docker). Final release 1.0.0
+    (2019-02-19); repository archived.

@@ -1,0 +1,31 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/pipelinedb/pipelinedb
+notes: >-
+  Lifecycle assembled from the archived GitHub repository. PipelineDB is an
+  end-of-life open-source project: it joined Confluent in 2019, shipped a final
+  1.0.0 release, and the repository is archived with only critical bug fixes
+  promised. The pipelinedb.com website (now redirects to an unrelated domain)
+  and the hosted Stride API service have been retired.
+status: end-of-life
+archived: true
+current_version: 1.0.0
+final_release: '2019-02-19'
+release_policy: >-
+  No new releases beyond 1.0.0; critical bugs may still be fixed. Repository is
+  archived.
+deprecation:
+  deprecated: true
+  policy: >-
+    Project deprecated following the 2019 Confluent acquisition. Development
+    ceased at 1.0.0 and the GitHub repository is archived. The hosted Stride
+    service and pipelinedb.com developer site have been decommissioned.
+  announcement: PipelineDB has joined Confluent (blog announcement, 2019).
+acquisition:
+  acquirer: Confluent
+  year: 2019
+license: Apache-2.0
+supported_platforms:
+- PostgreSQL 10 (64-bit)
+- PostgreSQL 11 (64-bit)
+status_page: none

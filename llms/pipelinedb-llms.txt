@@ -1,0 +1,29 @@
+# PipelineDB
+
+> PipelineDB was a high-performance PostgreSQL extension for continuous,
+> incremental aggregation of time-series data using continuous SQL views,
+> avoiding the need to store raw event data. It also offered Stride, a hosted
+> streaming-analytics API. The company joined Confluent in 2019; the
+> open-source extension is archived at a final 1.0.0 (Apache-2.0) release, and
+> the hosted service and pipelinedb.com website have been retired.
+
+Status: End-of-life / archived. Provided here for historical reference. The
+pipelinedb.com domain and docs.pipelinedb.com no longer resolve to the product.
+
+## Source and Extensions
+- PipelineDB extension: https://github.com/pipelinedb/pipelinedb (C, Apache-2.0, final v1.0.0 2019-02-19)
+- Docker images: https://github.com/pipelinedb/docker
+- Documentation source: https://github.com/pipelinedb/docs
+- Kafka ingestion extension: https://github.com/pipelinedb/pipeline_kafka
+- Amazon Kinesis ingestion extension: https://github.com/pipelinedb/pipeline_kinesis
+- PostGIS spatial support: https://github.com/pipelinedb/postgis
+- ODBC extension: https://github.com/pipelinedb/pipeline_odbc
+
+## Stride API Client SDKs (first-party)
+- Python: https://github.com/pipelinedb/pystride
+- JavaScript: https://github.com/pipelinedb/stride.js
+- Go: https://github.com/pipelinedb/gostride
+
+## Organization
+- GitHub organization: https://github.com/pipelinedb
+- Acquisition: joined Confluent (2019)
